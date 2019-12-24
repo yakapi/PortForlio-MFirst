@@ -1,0 +1,224 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ /* No media query for `xs` since this is the default in Bootstrap */
+ /* very small phone */
+@media (min-width: 320px) {
+  .fs-un{
+    font-size: 14px;
+  }
+  .fs-deux{
+    font-size: 20px;
+  }
+  .fs-trois{
+    font-size: 26px;
+  }
+  .fs-quatre{
+    font-size: 45px;
+  }
+  /* MENU */
+  #menu-desktop{
+    display: none;
+  }
+  /* Header-AboutMe */
+  #page-about{
+    height: auto;
+  }
+  .accroche{
+    height: 100vh;
+    background-attachment: local;
+  }
+  .about-content{
+    flex-direction: column;
+  }
+  .about-box{
+    width: 90%;
+  }
+  .frame-block{
+    justify-content: space-around;
+  }
+  /* Page-Skill */
+  .skill-icon-block{
+    width: 50px;
+    height: 50px;
+  }
+  .skillboard-screen{
+    flex-direction: column;
+  }
+  /*Page-Experiences*/
+  #page-experience{
+    height: auto;
+    padding-bottom: 0px;
+  }
+  .ligne{
+    height: 80px;
+    width: 3px;
+  }
+  .jointure{
+    flex-direction: column;
+  }
+  .story-block{
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  /* Page-Contact */
+  #page-contact{
+    padding-bottom: 0px;
+  }
+  .contact-content-right{
+    display: none;
+  }
+  .contact-content-left{
+    width: 100%;
+  }
+  .contact-form{
+    width: 85%;
+  }
+  .more-contact{
+    flex-direction: column;
+  }
+  .more-contact a{
+    margin-top: 10px;
+  }
+  /*Footer-Sponsor*/
+  .footer-spon p{
+    display: none;
+  }
+  .logo-sponsor{
+    width: 90px;
+    height: 70px;
+    background: red;
+  }
+
+
+}
+  /* very small phone */
+ @media (min-width: 424px) {
+
+ }
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .about-box{
+    width: 450px;
+  }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .fs-un{
+    font-size: 12px;
+  }
+  .fs-deux{
+    font-size: 24px;
+  }
+  .fs-trois{
+    font-size: 36px;
+  }
+  .fs-quatre{
+    font-size: 63px;
+  }
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+ /* normal laptop (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .fs-un{
+    font-size: 16px;
+  }
+  .fs-deux{
+    font-size: 24px;
+  }
+  .fs-trois{
+    font-size: 32px;
+  }
+  .fs-quatre{
+    font-size: 86px;
+  }
+  /*Menu*/
+  #menu-desktop{
+    display: block;
+  }
+  /* Header-AboutMe*/
+  #page-about{
+    height: 100vh;
+  }
+  .accroche{
+    height: 53vh;
+    background-attachment: fixed;
+  }
+  .about-box{
+    height: 250px;
+  }
+  .about-content{
+    flex-direction: row;
+  }
+  .frame-block{
+    justify-content: space-between;
+  }
+  /* Page-Skill */
+  .skill-icon-block{
+    width: 100px;
+    height: 100px;
+  }
+  .skillboard-screen{
+    flex-direction: row;
+  }
+  /*Page-Experiences*/
+  #page-experience{
+    height: 80vh;
+    padding-bottom: 50px;
+  }
+  .ligne{
+    height: 3px;
+    width: 80px;
+  }
+  .jointure{
+    flex-direction: row;
+  }
+  .story-block{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  /* Page-Contact */
+  #page-contact{
+    padding-bottom: 25px;
+  }
+  .contact-content-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-content-left{
+    width: 50%;
+  }
+  .contact-form{
+    width: 55%;
+  }
+  .more-contact{
+    flex-direction: row;
+  }
+  .more-contact a{
+    margin-top: 0px;
+  }
+  /*Footer-Sponsor*/
+  .logo-sponsor{
+    width: 210px;
+    height: 130px;
+    background: red;
+  }
+  .footer-spon p{
+    display: block;
+  }
+
+
+
+}
+  /* Modern Laptop) */
+ @media (min-width: 1350px) {
+   .about-box{
+     height: 320px;
+   }
+ }

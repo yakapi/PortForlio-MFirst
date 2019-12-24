@@ -55,18 +55,6 @@ font-family: 'Rajdhani', sans-serif; */
 .txt-maj{
   text-transform: uppercase;
 }
-.fs-un{
-  font-size: 16px;
-}
-.fs-deux{
-  font-size: 24px;
-}
-.fs-trois{
-  font-size: 32px;
-}
-.fs-quatre{
-  font-size: 86px;
-}
 .ovh{
 	overflow: hidden;
 }

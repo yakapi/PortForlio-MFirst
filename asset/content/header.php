@@ -1,4 +1,4 @@
-<header id="page-about" class="rltv">
+<header id="page-about" class="rltv js-backTop">
   <div class="accroche txt-pc">
     <div class="who-block">
       <h1 class="fs-quatre pol-un pall-15 txt-maj">barlier</h1>
@@ -9,7 +9,7 @@
       <h3 id="about-title" class="fs-trois fw-b">About Me :</h3>
     </div>
   </div>
-  <div class="about-content ">
+  <div id="about-content" class="about-content ">
     <div id="biographie" class="about-box  pall-15">
       <p class="fs-deux txt-c">Hi, i'm Victor. I'm a 25 years old web dev and i'm from Belfort, a little town of France. Since i was 8, im using web searching to understand how it's work.</p>
     </div>

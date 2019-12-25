@@ -1,4 +1,4 @@
-<div  class="title-section flx-ac">
+<div id="my-experiences"  class="title-section flx-ac">
   <h2 class="fs-trois fw-b txt-c">My Experiences :</h2>
 </div>
 <section id="page-experience" class="rltv">

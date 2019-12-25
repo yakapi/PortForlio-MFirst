@@ -59,7 +59,7 @@ font-family: 'Rajdhani', sans-serif; */
 	overflow: hidden;
 }
 .z-iup{
-	z-index: 999;
+	z-index: 8000;
 }
 .rltv{
  position: relative;

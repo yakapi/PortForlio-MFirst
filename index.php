@@ -16,6 +16,13 @@
   </head>
   <body class="rltv pol-deux fs-un">
     <?php
+
+    //LOADER
+    require 'asset/content/loader.php';
+
+    // backTop
+    require 'asset/content/back-arrow.php';
+
     //Menu
     require 'asset/content/menu.php';
 

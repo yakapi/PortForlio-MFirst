@@ -6,7 +6,7 @@
     <div class="contact-content-left">
       <div class="contact-form-content">
         <h3 class="fs-trois txt-pc txt-c fw-b pall-15">Drop me a line !</h3>
-        <form class="contact-form m-auto" action="index.html" method="post">
+        <form id="port-form" class="contact-form m-auto" action="sendMail_ez.php" method="post">
           <div class="ligne-form">
             <div class="section-form">
               <label for="nameOf">
@@ -16,7 +16,7 @@
               </label>
               <input class="w-100" id="nameOf" type="text" name="nameOf" placeholder="Full Name :" value="">
             </div>
-            <p class="pall-15">erro</p>
+            <p id="contact-name-error" class="spc-contact error pall-15"></p>
             <hr>
           </div>
           <div class="ligne-form">
@@ -28,7 +28,7 @@
               </label>
               <input class="w-100" id="mailOf" type="text" name="mailOf" placeholder="Your e-Mail :" value="">
             </div>
-            <p class="pall-15">erro</p>
+            <p id="contact-mail-error" class="spc-contact error pall-15"></p>
             <hr>
           </div>
           <div class="ligne-form">
@@ -40,23 +40,23 @@
               </label>
               <textarea id="messageOf" name="messageOf" placeholder="Your message :" rows="1" cols="80"></textarea>
             </div>
-            <p class="pall-15">erro</p>
+            <p id="contact-message-error" class="spc-contact error pall-15"></p>
             <hr>
           </div>
           <div class="ligne-form flx-ac">
             <input id="send-mail" class="btn-send-mail" type="submit" name="send-mail" value="Send Mail">
           </div>
         </form>
-        <p class="txt-pc txt-c pall-15"> message send sucessfuly</p>
+        <p id="send-successfull" class="txt-pc txt-c spc-contact pall-15"></p>
       </div>
       <div class="more-contact">
         <div class="btn_wrap">
             <span>Social Media</span>
             <div class="container-share">
-              <a href="#"><i class="fab fa-facebook"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-              <a href="#"><i class="fab fa-github"></i></a>
+              <a class="cl-un" href="#"><i class="cl-trois fab fa-facebook"></i></a>
+              <a class="cl-quatre" href="#"><i class="cl-quatre fab fa-instagram"></i></a>
+              <a class="cl-trois" href="#"><i class="cl-un fab fa-linkedin"></i></a>
+              <a class="cl-deux" href="#"><i class="cl-deux fab fa-github"></i></a>
             </div>
         </div>
         <a href="#">

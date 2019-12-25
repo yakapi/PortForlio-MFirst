@@ -27,3 +27,4 @@
 <script src="asset/js/scroll-bar.js"></script>
 <script src="asset/js/back-top.js"></script>
 <script src="asset/js/project.js"></script>
+<script src="asset/js/sendMail.js"></script>

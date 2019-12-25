@@ -5,7 +5,6 @@ font-family: 'Yantramanav', sans-serif;*/
 .btn_wrap i {
     opacity: 0;
     font-size: 28px;
-    color: #FFFF;
     will-change: transform;
     -webkit-transform: scale(.1);
             transform: scale(.1);
@@ -126,6 +125,30 @@ font-family: 'Yantramanav', sans-serif;
 }
 .title-section{
   height: 20vh;
+}
+.cl-un{
+  color: #BBDAE7;
+}
+.cl-deux{
+  color: #C1DACC;
+}
+.cl-trois{
+  color: #E7D8BC;
+}
+.cl-quatre{
+  color: #E6B4B5;
+}
+.colr-un{
+  background-color: #BBDAE7;
+}
+.colr-deux{
+  background-color: #C1DACC;
+}
+.colr-trois{
+  background-color: #E7D8BC;
+}
+.colr-quatre{
+  background-color: #E6B4B5;
 }
 /*Back-TOP*/
 .z-imax{
@@ -520,6 +543,9 @@ label{
 .content-right-block{
   width: 550px;
   height: 550px;
+}
+.spc-contact{
+  height: 8px;
 }
 /* Footer */
 .footer-spon{

@@ -14,9 +14,9 @@
                   <?php require 'asset/img/contact-user.php'; ?>
                 </div>
               </label>
-              <input class="w-100" id="nameOf" type="text" name="nameOf" placeholder="Full Name :" value="">
+              <input class="w-100 keydown-reload" id="nameOf" type="text" name="nameOf" placeholder="Full Name :" value="">
             </div>
-            <p id="contact-name-error" class="spc-contact error pall-15"></p>
+            <p id="contact-name-error" class="spc-contact cl-quatre failed  pall-15"></p>
             <hr>
           </div>
           <div class="ligne-form">
@@ -26,9 +26,9 @@
                   <?php require 'asset/img/contact-mail.php'; ?>
                 </div>
               </label>
-              <input class="w-100" id="mailOf" type="text" name="mailOf" placeholder="Your e-Mail :" value="">
+              <input class="w-100 keydown-reload" id="mailOf" type="text" name="mailOf" placeholder="Your e-Mail :" value="">
             </div>
-            <p id="contact-mail-error" class="spc-contact error pall-15"></p>
+            <p id="contact-mail-error" class="spc-contact cl-quatre failed  pall-15"></p>
             <hr>
           </div>
           <div class="ligne-form">
@@ -38,16 +38,16 @@
                   <?php require 'asset/img/contact-message.php'; ?>
                 </div>
               </label>
-              <textarea id="messageOf" name="messageOf" placeholder="Your message :" rows="1" cols="80"></textarea>
+              <textarea id="messageOf" name="messageOf" class="keydown-reload" placeholder="Your message :" rows="1" cols="80"></textarea>
             </div>
-            <p id="contact-message-error" class="spc-contact error pall-15"></p>
+            <p id="contact-message-error" class="spc-contact cl-quatre failed pall-15"></p>
             <hr>
           </div>
           <div class="ligne-form flx-ac">
             <input id="send-mail" class="btn-send-mail" type="submit" name="send-mail" value="Send Mail">
           </div>
         </form>
-        <p id="send-successfull" class="txt-pc txt-c spc-contact pall-15"></p>
+        <p id="send-successfull" class="txt-pc txt-c failed error spc-contact pall-15"></p>
       </div>
       <div class="more-contact">
         <div class="btn_wrap">
@@ -68,8 +68,11 @@
     </div>
     <div class="contact-content-right">
       <div class="content-right-block rltv">
-        <div class="ablst h-100 w-100">
+        <div class="contact-gif ablst h-100 w-100">
           <img class="h-100 w-100" src="asset/img/contact.gif" alt="contact-anim">
+        </div>
+        <div class="contact-map ablst h-100 w-100">
+          <iframe width="100%" height="100%" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Belfort+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/coordinates.html">latitude longitude finder</a></iframe>
         </div>
       </div>
     </div>

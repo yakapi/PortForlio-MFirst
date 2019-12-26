@@ -9,10 +9,8 @@ $(window).on('load', function () {
     let nav_d = document.getElementsByClassName('nav-d');
     let about_content_topSet = about_content.offsetTop;
     let page_contact_topSet = page_contact.offsetTop;
-    console.log(about_content_topSet, page_contact_topSet);
 
     $(window).on('scroll', function(){
-      console.log($(document.documentElement).scrollTop());
       if ($(document.documentElement).scrollTop() >= about_content_topSet && $(document.documentElement).scrollTop() < page_contact_topSet) {
         menu_desk.classList.add('menu-desk-transition');
         back_top_arrow.classList.add('z-imax');

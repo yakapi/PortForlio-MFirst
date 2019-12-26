@@ -18,6 +18,9 @@
   #menu-desktop{
     display: none;
   }
+  #menu-mobile{
+    display: block;
+  }
   /* Header-AboutMe */
   #page-about{
     height: auto;
@@ -35,6 +38,11 @@
   .frame-block{
     justify-content: space-around;
   }
+  /*Page-project*/
+  .btn-pjt{
+    width: 110px;
+  }
+
   /* Page-Skill */
   .skill-icon-block{
     width: 50px;
@@ -140,6 +148,12 @@
   #menu-desktop{
     display: block;
   }
+  #menu-mobile{
+    display: none;
+  }
+  #menu-slider{
+    display: none;
+  }
   /* Header-AboutMe*/
   #page-about{
     height: 100vh;
@@ -164,6 +178,10 @@
   }
   .skillboard-screen{
     flex-direction: row;
+  }
+  /*Page-project*/
+  .btn-pjt{
+    width: 150px;
   }
   /*Page-Experiences*/
   #page-experience{

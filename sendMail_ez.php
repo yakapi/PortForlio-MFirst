@@ -33,14 +33,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   echo json_encode($contact_val);
 
   //=====Envoi de l'e-mail.
-  if ($contact_val['isSucces']) {
+  if ($contact_val['isSuccess']) {
     $alaligne = "\n";
     $to = "victor.barlier@outlook.fr";
     $sujet = "un message de vote PortoFolio !";
-    $message = $_POST['nameOf'] . "a essayé de vous contactez" . $alaligne;
+    $message = $_POST['nameOf'] . "a essayer de vous contactez" . $alaligne;
     $message .= "mail du contact: " . $_POST['mailOf'] . $alaligne;
     $message .= "message : " . $_POST['messageOf'] . $alaligne;
-    mail($to,$sujet,$message);
+    mail($to, $sujet, $message);
   }
 };
  ?>

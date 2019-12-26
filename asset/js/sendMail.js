@@ -25,7 +25,7 @@ $(function () {
             success: function(result) {
                 // Si nous n'avons pas de messages d'erreur
                 if (result.isSuccess) {
-                  console.log(result.isSuccess);
+                  // console.log(result.isSuccess);
                     $("#send-successfull").append("message send successfully");
                     // Remettre les valeurs à zéro
                     $("#port-form")[0].reset();

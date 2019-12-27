@@ -262,6 +262,22 @@ font-family: 'Yantramanav', sans-serif;
 .encard-icon-menu{
   height: 6vh;
 }
+.menu-icon-left{
+  left: -120%;
+  transition: left .5s ease-in-out;
+}
+.menu-icon-left-trs{
+  left: 0%;
+  transition: left 2s ease-in-out;
+}
+.menu-icon-right{
+  right: -120%;
+  transition: right .5s ease-in-out;
+}
+.menu-icon-right-trs{
+  right: 0%;
+  transition: right 2s ease-in-out;
+}
 /* About Me */
 
 .accroche{

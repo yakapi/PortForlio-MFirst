@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Barlier Victor : Portfolio</title>
     <!-- CDN FontAwesome -->
-    <script src="https://kit.fontawesome.com/e6ea10640a.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/e6ea10640a.js" crossorigin="anonymous"></script> -->
     <link href="https://fonts.googleapis.com/css?family=Michroma|Yantramanav:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="asset/css/frm-pers.css">
     <link rel="stylesheet" href="asset/css/style.css">

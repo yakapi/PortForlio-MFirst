@@ -25,7 +25,8 @@ $(window).on('load', function () {
           lucio_pjt_screen.classList.add('w-100');
           lucio_pjt_screen.innerHTML = '<div class="lucio-content rltv w-100 h-100">'
           + '<h3 class="fs-deux">Lucio Pizzeria</h3>'
-          + '<iframe src="http://victor.barlier.free.fr/lucio/" width="50%" height="50%"></iframe>'
+          + '<iframe class="frame-border logo-desk" src="http://victor.barlier.free.fr/lucio/" width="50%" height="50%"></iframe>'
+          + '<img class="logo-mobile logo-project-size" src="asset/img/lucio-mobile.png" alt="Lucio Pizzeria">'
           + '<p>Building a complete project from wireframe to website.</p>'
           + '<div class="button-box flx-ac">'
           + '<a class="da-blk btn-pjt" target="_blank" href="http://victor.barlier.free.fr/lucio/">Open New Tab</a>'
@@ -75,7 +76,8 @@ $(window).on('load', function () {
             bomber_pjt_screen.classList.add('w-100');
             bomber_pjt_screen.innerHTML = '<div class="bomber-content rltv w-100 h-100">'
             + '<h3 class="fs-deux">BomberMeuh</h3>'
-            + '<iframe src="http://victor.barlier.free.fr/lucio/" width="50%" height="50%"></iframe>'
+            + '<iframe class="logo-desk" src="http://victor.barlier.free.fr/lucio/" width="50%" height="50%"></iframe>'
+            + '<img class="logo-mobile logo-project-size-any" src="asset/img/bomber-mobile.png" alt="BomberMeuh Logo">'
             + '<p>Create a Vanilla JS retro game only with DOM elements</p>'
             + '<div class="button-box flx-ac">'
             + '<a class="da-blk btn-pjt" target="_blank" href="http://victor.barlier.free.fr/lucio/">Open New Tab</a>'
@@ -125,7 +127,8 @@ $(window).on('load', function () {
               any_pjt_screen.classList.add('w-100');
               any_pjt_screen.innerHTML = '<div class="any-content rltv w-100 h-100">'
               + '<h3 class="fs-deux">AnyTransfer</h3>'
-              + '<iframe src="http://victor.barlier.free.fr/lucio/" width="50%" height="50%"></iframe>'
+              + '<iframe class="logo-desk" src="http://victor.barlier.free.fr/lucio/" width="50%" height="50%"></iframe>'
+              + '<img class="logo-mobile logo-project-size-any" src="asset/img/logo2.png" alt="AnyTransfer Logo">'
               + '<p>Send Any File to Anyone</p>'
               + '<div class="button-box flx-ac">'
               + '<a class="da-blk btn-pjt" target="_blank" href="http://victor.barlier.free.fr/lucio/">Open New Tab</a>'
@@ -176,7 +179,8 @@ $(window).on('load', function () {
                 wish_pjt_screen.classList.add('w-100');
                 wish_pjt_screen.innerHTML = '<div class="wish-content rltv w-100 h-100">'
                 + '<h3 class="fs-deux">eWishCard</h3>'
-                + '<iframe src="http://victor.barlier.free.fr/lucio/" width="50%" height="50%"></iframe>'
+                + '<iframe class="logo-desk" src="http://victor.barlier.free.fr/lucio/" width="50%" height="50%"></iframe>'
+                + '<img class="logo-mobile logo-project-size-any" src="asset/img/wish-mobile.png" alt="eWishCard Logo">'
                 + '<p>Send Beautifull and Personal eCard by Mail!</p>'
                 + '<div class="button-box flx-ac">'
                 + '<a class="da-blk btn-pjt" target="_blank" href="http://victor.barlier.free.fr/lucio/">Open New Tab</a>'

@@ -2,21 +2,15 @@
   <div class="footer-spon">
     <div class="block-footer mall-15">
       <div class="logo-sponsor">
-
+        <img class="logo-desk" src="asset/img/logo-ACS.png" alt="Acces Code School Logo">
+        <img class="logo-mobile" src="asset/img/acs-mobile.jpg" alt="Acces Code School Logo">
       </div>
-      <p class="pall-15 txt-c">Access Code School</p>
     </div>
     <div class="block-footer mall-15">
       <div class="logo-sponsor">
-
+        <img class="logo-desk" src="asset/img/opf-desk.png" alt="Onlineformapro Logo Desk">
+        <img class="logo-mobile" src="asset/img/ofp-mobile.png" alt="Onlineformapro Logo Mobile">
       </div>
-      <p class="pall-15 txt-c">Promo-31</p>
-    </div>
-    <div class="block-footer mall-15">
-      <div class="logo-sponsor">
-
-      </div>
-      <p class="pall-15 txt-c">Onlineformapro</p>
     </div>
   </div>
   <p class="fs-deux txt-c pall-15">All Right reserved to the Moon</p>

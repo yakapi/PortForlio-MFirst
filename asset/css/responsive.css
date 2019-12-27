@@ -42,6 +42,9 @@
   .btn-pjt{
     width: 110px;
   }
+  .any-icon::after, .bomber-icon::after, .lucio-icon::after, .wish-icon::after{
+    display: none;
+  }
 
   /* Page-Skill */
   .skill-icon-block{
@@ -93,8 +96,10 @@
   }
   .logo-sponsor{
     width: 90px;
-    height: 70px;
-    background: red;
+    height: 90px;
+  }
+  .logo-desk{
+    display: none;
   }
 
 
@@ -183,6 +188,9 @@
   .btn-pjt{
     width: 150px;
   }
+  .any-icon::after, .bomber-icon::after, .lucio-icon::after, .wish-icon::after{
+    display: flex;
+  }
   /*Page-Experiences*/
   #page-experience{
     height: 80vh;
@@ -228,6 +236,12 @@
     background: red;
   }
   .footer-spon p{
+    display: block;
+  }
+  .logo-mobile{
+    display: none;
+  }
+  .logo-desk{
     display: block;
   }
 

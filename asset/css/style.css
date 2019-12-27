@@ -379,7 +379,6 @@ font-family: 'Yantramanav', sans-serif;
   height: 50px;
   width: 100%;
   color: white;
-  display: flex;
   justify-content: center;
   align-items: center;
   bottom: 0px;
@@ -474,6 +473,10 @@ font-family: 'Yantramanav', sans-serif;
   transition: opacity 1s ease-in-out;
   opacity: 1;
 }
+.frame-border{
+  border-radius: 20px;
+}
+
 /* Skill */
 #page-skill{
 }
@@ -630,4 +633,8 @@ label{
 .footer-spon{
   display: flex;
   justify-content: space-around;
+}
+.logo-sponsor img{
+  width: 100%;
+  height: 100%;
 }

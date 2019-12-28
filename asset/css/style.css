@@ -352,7 +352,7 @@ font-family: 'Yantramanav', sans-serif;
   background: linear-gradient(104deg, rgba(211, 17, 18,0.2) 0%, rgba(181, 56, 57,0.41220238095238093) 100%);
 }
 .lucio-icon::after{
-  content: "project: Build website for a client!";
+  content: "project: Build a complete project from wireframe to website.";
   position: absolute;
   height: 50px;
   width: 100%;
@@ -396,7 +396,7 @@ font-family: 'Yantramanav', sans-serif;
 }
 
 .any-icon::after{
-  content: "project: Php Mail Sender!";
+  content: "project: Php Files-Mail Sender!";
   position: absolute;
   height: 50px;
   width: 100%;
@@ -439,9 +439,9 @@ font-family: 'Yantramanav', sans-serif;
   padding: 10px;
   margin: 5px 15px;
   text-align: center;
-  background: rgb(227, 157, 7);
-  background: linear-gradient(104deg, rgba(227, 157, 7,0.2) 0%, rgba(237, 193, 97,0.41220238095238093) 100%);
-  color: white;
+  background: white;
+  color: black;
+  border-radius: 80px;
 }
 .lucio-content, .bomber-content, .any-content, .wish-content{
   display: flex;
@@ -476,7 +476,28 @@ font-family: 'Yantramanav', sans-serif;
 .frame-border{
   border-radius: 20px;
 }
+.logo-project-size{
+  width: 100%;
+  overflow: hidden;
+}
+.logo-project-size img{
+  width: 110%;
+  transform: translateX(-5%);
+}
+.project-list{
+  list-style: georgian;
+  padding: 3px;
+}
+.project-describe{
+  display: flex;
+  flex-direction: column;
 
+}
+.list-pjt{
+  width: 90%;
+  font-size: 13px;
+  align-self: flex-end;
+}
 /* Skill */
 #page-skill{
 }

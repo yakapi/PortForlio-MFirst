@@ -2,6 +2,10 @@
  /* No media query for `xs` since this is the default in Bootstrap */
  /* very small phone */
 @media (min-width: 320px) {
+  .container{
+    height: 24px;
+    width: 235px;
+  }
   .fs-un{
     font-size: 14px;
   }
@@ -137,6 +141,10 @@
 
  /* normal laptop (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .container{
+    height: 32px;
+    width: 295px;
+  }
   .fs-un{
     font-size: 16px;
   }

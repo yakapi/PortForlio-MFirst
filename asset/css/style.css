@@ -1,6 +1,9 @@
 
 /* font-family: 'Michroma', sans-serif;
 font-family: 'Yantramanav', sans-serif;*/
+.container{
+  overflow: hidden;
+}
 /* Share */
 .btn_wrap i {
     opacity: 0;
@@ -570,6 +573,21 @@ font-family: 'Yantramanav', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.li-exp-style{
+  list-style: square;
+}
+.ma-ul{
+  margin-left: 15px;
+}
+.para-experience{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.para-title-experience{
+  display: flex;
+  justify-content: flex-start;
 }
 /* Contact */
 #page-contact{

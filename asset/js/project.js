@@ -87,7 +87,7 @@ $(window).on('load', function () {
             bomber_pjt_screen.classList.add('w-100');
             bomber_pjt_screen.innerHTML = '<div class="bomber-content rltv w-100 h-100">'
             + '<h3 class="fw-b txt-pc pol-un fs-deux">BomberMeuh</h3>'
-            + '<iframe class="logo-desk frame-border" src="http://victor.barlier.free.fr/lucio/" width="45%" height="45%"></iframe>'
+            + '<iframe class="logo-desk frame-border" src="http://victor.barlier.free.fr/BomberMeuh/" width="45%" height="45%"></iframe>'
             + '<div class="logo-mobile logo-project-size">'
             + '<img src="asset/img/bomber-mobile.png" alt="BomberMeuh Logo">'
             + '</div>'

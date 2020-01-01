@@ -11,44 +11,52 @@
       <div class="ligne"></div>
       <div class="boule"></div>
     </div>
-    <div class="OPC pall-15 etk-1">
-        <h3>Open Class Room</h3>
+    <div class="OPC para-experience pall-15 etk-1">
+      <div class="para-title-experience">
+        <h3 class="fw-b">Open Class Room : </h3>
         <p>05 May</p>
-        <p>Starting Mooc to learn HTML5 and CSS3</p>
+      </div>
+        <p class="mall-15"> - Starting Mooc to learn HTML5 and CSS3</li>
     </div>
     <div class="jointure">
       <div class="boule"></div>
       <div class="ligne"></div>
       <div class="boule"></div>
     </div>
-    <div class="Udemy pall-15 etk-2">
-      <h3>Udemy</h3>
-      <p>14 June</p>
-      <p>Starting Udemy to learn Javascript and jQuery</p>
+    <div class="Udemy pall-15 para-experience etk-2">
+      <div class="para-title-experience">
+        <h3 class="fw-b">Udemy : </h3>
+        <p>14 June</p>
+      </div>
+      <p class="mall-15"> - Starting Udemy to learn Javascript and jQuery</p>
     </div>
     <div class="jointure">
       <div class="boule"></div>
       <div class="ligne"></div>
       <div class="boule"></div>
     </div>
-    <div class="IllicoWeb1 pall-15 etk-3">
-      <h3>IllicoWeb</h3>
-      <p>23 aout</p>
-      <p>Discovered the World of Professional Web</p>
+    <div class="IllicoWeb1 para-experience pall-15 etk-3">
+      <div class="para-title-experience">
+        <h3 class="fw-b">IllicoWeb : </h3>
+        <p>23 aout</p>
+      </div>
+      <p class="mall-15"> - Discovered the World of Professional Web</p>
     </div>
     <div class="jointure">
       <div class="boule"></div>
       <div class="ligne"></div>
       <div class="boule"></div>
     </div>
-    <div class="WoodStuff pall-15 etk-1">
-      <h3>Woodstuff</h3>
-      <p>23 aout</p>
-      <p>Creating Shopify Modele (JSON):</p>
-      <ul>
-        <li>CGI Modele</li>
-        <li>Catalog Modele</li>
-        <li>About Modele</li>
+    <div class="WoodStuff para-experience pall-15 etk-1">
+      <div class="para-title-experience">
+        <h3 class="fw-b">Woodstuff : </h3>
+        <p>23 aout</p>
+      </div>
+      <p class="mall-15"> - Creating Shopify Modele (JSON):</p>
+      <ul class="ma-ul">
+        <li class="mall-15 li-exp-style">CGI Modele</li>
+        <li class="mall-15 li-exp-style">Catalog Modele</li>
+        <li class="mall-15 li-exp-style">About Modele</li>
       </ul>
     </div>
     <div class="jointure">
@@ -56,21 +64,24 @@
       <div class="ligne"></div>
       <div class="boule"></div>
     </div>
-    <div class="IllicoWeb2 pall-15 etk-2">
-      <h3>IllicoWeb</h3>
-      <p>15 December</p>
-      <p>Creating Vectorial Mapping Tool (PHP,MYSQL, Private CMS) :</p>
-      <p>A Tool to insert any vectorial element to create custom map.</p>
+    <div class="IllicoWeb2 para-experience pall-15 etk-2">
+      <div class="para-title-experience">
+        <h3 class="fw-b">IllicoWeb : </h3>
+        <p>15 December</p>
+      </div>
+      <p class="mall-15"> - Creating Vectorial Mapping Tool (PHP,MYSQL, Private CMS), <br>A Tool to insert any vectorial element to create custom map.</p>
     </div>
     <div class="jointure">
       <div class="boule"></div>
       <div class="ligne"></div>
       <div class="boule"></div>
     </div>
-    <div class="ACS pall-15 etk-3">
-      <h3>Access Code School</h3>
-      <p>24 september</p>
-      <p>Enter Access Code School</p>
+    <div class="ACS para-experience pall-15 etk-3">
+      <div class="para-title-experience">
+        <h3 class="fw-b">Access Code School : </h3>
+        <p>24 september</p>
+      </div>
+      <p class="mall-15"> - Enter Access Code School</p>
     </div>
     <div class="jointure">
       <div class="boule"></div>

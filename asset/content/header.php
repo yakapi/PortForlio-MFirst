@@ -2,7 +2,9 @@
   <div class="accroche txt-pc">
     <div class="who-block">
       <h1 class="fs-quatre pol-un pall-15 txt-maj">barlier</h1>
-      <p class="fs-trois fw-b">Web Devellopper junior</p>
+      <div class="container">
+        <h3 class="fs-trois fw-b heading" data-target-resolver></h1>
+      </div>
       <h2 class="fs-quatre pol-un pall-15 txt-maj">victor</h2>
     </div>
     <div class="about-block mall-15">
@@ -27,7 +29,7 @@
         </div>
       </div>
       <div id="SoundClound">
-        <a class="btn-sc  da-blk mall-15" href="#">SoundCloud</a>
+        <a class="btn-sc  da-blk mall-15" href="https://soundcloud.com/d-cay_music">SoundCloud</a>
       </div>
     </div>
   </div>

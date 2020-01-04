@@ -53,15 +53,15 @@
         <div id="social-mobileFX" class="btn_wrap">
             <span id="span-media">Social Media</span>
             <div class="container-share">
-              <a class="cl-un" href="#"><i class="social-icon cl-trois fab fa-facebook"></i></a>
-              <a class="cl-quatre" href="#"><i class="social-icon cl-quatre fab fa-instagram"></i></a>
-              <a class="cl-trois" href="#"><i class="social-icon cl-un fab fa-linkedin"></i></a>
-              <a class="cl-deux" href="#"><i class="social-icon cl-deux fab fa-github"></i></a>
+              <a class="cl-un" href="https://www.facebook.com/victor.barlier"><i class="social-icon cl-trois fab fa-facebook"></i></a>
+              <a class="cl-quatre" href="https://www.instagram.com/d_cay.420/"><i class="social-icon cl-quatre fab fa-instagram"></i></a>
+              <a class="cl-trois" href="https://www.linkedin.com/in/victor-barlier-ab4460174/"><i class="social-icon cl-un fab fa-linkedin"></i></a>
+              <a class="cl-deux" href="https://github.com/yakapi/"><i class="social-icon cl-deux fab fa-github"></i></a>
             </div>
         </div>
-        <a href="#">
+        <a href="asset/img/CV-ACS.pdf" target="_blank" download>
           <div class="btn-cv">
-              <span>Look CV</span>
+              <span>My CV</span>
           </div>
         </a>
       </div>

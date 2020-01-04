@@ -38,7 +38,7 @@
                   <?php require 'asset/img/contact-message.php'; ?>
                 </div>
               </label>
-              <textarea id="messageOf" name="messageOf" class="keydown-reload" placeholder="Your message :" rows="1" cols="80"></textarea>
+              <textarea id="messageOf" name="messageOf" class="keydown-reload" placeholder="Your message :" rows="1" ></textarea>
             </div>
             <p id="contact-message-error" class="spc-contact cl-quatre failed pall-15"></p>
             <hr>
@@ -50,13 +50,13 @@
         <p id="send-successfull" class="txt-pc txt-c failed error spc-contact pall-15"></p>
       </div>
       <div class="more-contact">
-        <div class="btn_wrap">
-            <span>Social Media</span>
+        <div id="social-mobileFX" class="btn_wrap">
+            <span id="span-media">Social Media</span>
             <div class="container-share">
-              <a class="cl-un" href="#"><i class="cl-trois fab fa-facebook"></i></a>
-              <a class="cl-quatre" href="#"><i class="cl-quatre fab fa-instagram"></i></a>
-              <a class="cl-trois" href="#"><i class="cl-un fab fa-linkedin"></i></a>
-              <a class="cl-deux" href="#"><i class="cl-deux fab fa-github"></i></a>
+              <a class="cl-un" href="#"><i class="social-icon cl-trois fab fa-facebook"></i></a>
+              <a class="cl-quatre" href="#"><i class="social-icon cl-quatre fab fa-instagram"></i></a>
+              <a class="cl-trois" href="#"><i class="social-icon cl-un fab fa-linkedin"></i></a>
+              <a class="cl-deux" href="#"><i class="social-icon cl-deux fab fa-github"></i></a>
             </div>
         </div>
         <a href="#">

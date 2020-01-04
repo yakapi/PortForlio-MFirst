@@ -14,4 +14,4 @@
     <link rel="stylesheet" href="asset/css/style.css">
     <link rel="stylesheet" href="asset/css/responsive.css">
   </head>
-  <body class="rltv pol-deux fs-un">
+  <body id="BodBod" class="rltv pol-deux fs-un">

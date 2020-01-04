@@ -25,5 +25,6 @@
 <script src="asset/js/sendMail.js"></script>
 <script src="asset/js/menu-mobile.js"></script>
 <script src="asset/js/devjr-anim.js"></script>
+<script src="asset/js/social-media.js"></script>
 </body>
 </html>

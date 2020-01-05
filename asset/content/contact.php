@@ -6,7 +6,7 @@
     <div class="contact-content-left">
       <div class="contact-form-content">
         <h3 class="fs-trois txt-pc txt-c fw-b pall-15">Drop me a line !</h3>
-        <form id="port-form" class="contact-form m-auto" action="sendMail_ez.php" method="post">
+        <form id="port-form" class="contact-form m-auto" action="index.php" method="post">
           <div class="ligne-form">
             <div class="section-form">
               <label for="nameOf">
